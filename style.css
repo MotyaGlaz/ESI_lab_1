@@ -1,0 +1,95 @@
+/*  Общие стили  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+body {
+    margin: 20px;
+}
+
+.settings {
+    display: flex;
+    gap: 50px;
+}
+
+.block-input {
+    display: block;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+svg text {
+    font: 8px Verdana;
+}
+
+svg path, line {
+    fill: none;
+    stroke: #333333;
+}
+
+input, select {
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.input-label {
+    display: inline-block;
+    width: 100px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 0 10px;
+    min-width: 120px;
+    margin-top: 10px;
+}
+
+input[type=radio] {
+    width: fit-content;
+}
+
+.remove-button {
+    min-width: fit-content;
+}
+
+/*  Стили таблицы   */
+
+.table {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    border-collapse: separate;
+}
+
+.table thead th {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 15px;
+    background: #EDEDED;
+    font-size: 14px;
+}
+
+.table tbody td {
+    text-align: left;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: top;
+    max-width: 200px;
+}
